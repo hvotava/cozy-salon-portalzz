@@ -1,5 +1,7 @@
 
 import { Navigation } from "@/components/zzsalon/Navigation";
+import { ArrowLeft } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const MensHaircuts = () => {
   const styles = [
@@ -24,6 +26,13 @@ const MensHaircuts = () => {
     <div className="pt-16">
       <Navigation showTitle={true} />
       <div className="max-w-6xl mx-auto px-4 py-12">
+        <Link 
+          to="/" 
+          className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          Zpět na hlavní stránku
+        </Link>
         <h1 className="text-4xl font-light mb-8">Pánské střihy</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {styles.map((style, index) => (

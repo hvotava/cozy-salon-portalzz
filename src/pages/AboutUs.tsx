@@ -1,11 +1,20 @@
 
 import { Navigation } from "@/components/zzsalon/Navigation";
+import { ArrowLeft } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
     <div className="pt-16">
       <Navigation showTitle={true} />
       <div className="max-w-4xl mx-auto px-4 py-12">
+        <Link 
+          to="/" 
+          className="inline-flex items-center gap-2 text-gray-600 hover:text-gray-900 mb-6 transition-colors"
+        >
+          <ArrowLeft className="w-5 h-5" />
+          Zpět na hlavní stránku
+        </Link>
         <h1 className="text-4xl font-light mb-8">O nás</h1>
         <div className="prose prose-lg">
           <p>
