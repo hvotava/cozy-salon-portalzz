@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useState, useEffect } from "react";
+import { Navigation } from "@/components/zzsalon/Navigation";
+import { HeroSection } from "@/components/zzsalon/HeroSection";
+import { ServicesSection } from "@/components/zzsalon/ServicesSection";
+import { ProjectsSection } from "@/components/zzsalon/ProjectsSection";
+import { PricingSection } from "@/components/zzsalon/PricingSection";
+import { ContactInfo } from "@/components/zzsalon/ContactInfo";
 
 const Index = () => {
+  const [showTitle, setShowTitle] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowTitle(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="relative">
+      <Navigation showTitle={showTitle} onSectionClick={scrollToSection} />
+      <HeroSection />
+      <ServicesSection />
+      <ProjectsSection />
+      <PricingSection />
+      <ContactInfo />
     </div>
   );
 };
