@@ -8,21 +8,14 @@ export const HeroSection = () => {
     <section id="home" className="min-h-screen flex flex-col justify-center items-center p-4 relative pt-16">
       <div className="text-center space-y-8 max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-6xl font-light tracking-tight animate-fade-down">
-          Kadeřnictví PETRŮ & ROSSI
+          Kadeřnictví ZZsalon
         </h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 animate-fade-up">
-          <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
+        <div className="animate-fade-up">
+          <div className="aspect-[16/9] rounded-2xl overflow-hidden shadow-2xl">
             <img 
-              src="/salon-interior-1.jpg"
+              src="/lovable-uploads/760e91c9-8500-4f79-9996-73e5a82db2e0.png"
               alt="Interiér salonu" 
-              className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-            />
-          </div>
-          <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
-            <img 
-              src="/salon-interior-2.jpg"
-              alt="Kadeřnické křeslo a vybavení" 
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
             />
           </div>
