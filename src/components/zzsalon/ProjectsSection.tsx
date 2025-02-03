@@ -28,8 +28,8 @@ export const ProjectsSection = () => {
     },
     { 
       id: "kosmetika",
-      title: "Kosmetika", 
-      desc: "Kompletní péče o pleť",
+      title: "Kosmetika a manikůra", 
+      desc: "Kompletní péče o pleť a nehty",
       img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80",
       path: "/kosmetika"
     },
