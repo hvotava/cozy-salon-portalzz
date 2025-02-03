@@ -14,8 +14,8 @@ export const ServicesSection = () => {
             <p className="text-gray-400">Moderní střihy, úprava vousů a klasické holení břitvou.</p>
           </div>
           <div className="space-y-4 bg-white/5 p-6 rounded-xl backdrop-blur-sm animate-fade-up [animation-delay:400ms] hover:bg-white/10 transition-colors duration-300">
-            <h3 className="text-xl font-light">Vlasový styling</h3>
-            <p className="text-gray-400">Svatební účesy, společenské účesy a speciální příležitosti.</p>
+            <h3 className="text-xl font-light">Kosmetika a manikúra</h3>
+            <p className="text-gray-400">Profesionální péče o vaši pleť, ruce a nehty.</p>
           </div>
         </div>
       </div>
