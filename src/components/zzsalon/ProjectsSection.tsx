@@ -9,19 +9,22 @@ export const ProjectsSection = () => {
       id: "damsky-strih",
       title: "Dámský střih", 
       desc: "Moderní styling",
-      img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80"
+      img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80",
+      path: "/damsky-strih"
     },
     { 
       id: "pansky-strih",
       title: "Pánský střih", 
       desc: "Precizní úprava",
-      img: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&q=80"
+      img: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&q=80",
+      path: "/pansky-strih"
     },
     { 
       id: "barveni",
       title: "Barvení", 
       desc: "Kreativní techniky",
-      img: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&q=80"
+      img: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&q=80",
+      path: "/barveni"
     },
     { 
       id: "svatebni",
@@ -33,7 +36,8 @@ export const ProjectsSection = () => {
       id: "prodluzovani",
       title: "Prodlužování vlasů", 
       desc: "Profesionální prodloužení",
-      img: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80"
+      img: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80",
+      path: "/prodluzovani"
     },
     { 
       id: "spolecenske",
@@ -50,7 +54,7 @@ export const ProjectsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((item, index) => (
             <Link
-              to={`/service/${item.id}`}
+              to={item.path || `#${item.id}`}
               key={index} 
               className="group relative aspect-square overflow-hidden bg-gray-100 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-up"
               style={{ animationDelay: `${index * 100}ms` }}
