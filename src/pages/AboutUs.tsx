@@ -17,16 +17,23 @@ const AboutUs = () => {
         </Link>
         <h1 className="text-4xl font-light mb-8">O nás</h1>
         <div className="prose prose-lg">
-          <p>
-            Kadeřnictví PETRŮ & ROSSI je profesionální vlasové studio s dlouholetou tradicí. 
-            Naši kadeřníci jsou pravidelně školeni v nejnovějších trendech a technikách, 
-            což nám umožňuje poskytovat našim klientům ty nejlepší služby.
+          <p className="text-xl font-light mb-6">
+            Vítáme Vás v ZZ Salonu na Žižkově! Najdete nás na adrese Prokopova 18, Praha 3, 
+            v blízkosti autobusových zastávek Tachovské náměstí (linky 175, 207) a Rokycanova (linky 136, 175).
           </p>
+          
           <p>
-            Specializujeme se na kompletní vlasový styling, od klasických střihů 
-            až po náročné proměny. Používáme pouze kvalitní vlasovou kosmetiku 
-            a nejmodernější technologie.
+            Již více než 30 let poskytujeme prvotřídní kadeřnické služby v našem salonu. 
+            Disponujeme samostatně oddělenými prostory pro kadeřnictví a kosmetiku, 
+            čímž zajišťujeme maximální komfort pro naše klienty.
           </p>
+
+          <p>
+            Naším hlavním cílem je poskytnout Vám tu nejlepší profesionální péči. 
+            Ať už hledáte dokonalý střih, novou barvu, účes pro zvláštní příležitost 
+            nebo komplexní péči o pleť, jsme tu pro Vás.
+          </p>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
             <img 
               src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80" 
@@ -39,6 +46,28 @@ const AboutUs = () => {
               className="rounded-lg shadow-lg"
             />
           </div>
+
+          <p>
+            Naši kadeřníci pravidelně navštěvují Milán, kde se zdokonalují pod vedením 
+            uznávaného Savéria Palmy. Díky tomu můžeme nabídnout širokou škálu střihů 
+            - od extravagantních účesů přes elegantní společenské úpravy až po praktické 
+            střihy pro každodenní nošení.
+          </p>
+
+          <p>
+            Při naší práci používáme výhradně špičkovou vlasovou kosmetiku značky BES. 
+            Naší filozofií je nejen krása, ale i zdraví Vašich vlasů. Rádi Vám poradíme 
+            s výběrem vhodných přípravků pro domácí péči.
+          </p>
+
+          <h2 className="text-2xl font-light mt-8 mb-4">Náš tým</h2>
+          <ul className="list-disc pl-6">
+            <li>Zuzka – kadeřnice</li>
+            <li>Pavla – kadeřnice</li>
+            <li>Oliver – kadeřník</li>
+            <li>Tony – prodlužování vlasů</li>
+            <li>Ivet – kosmetika a manikúra</li>
+          </ul>
         </div>
       </div>
     </div>
