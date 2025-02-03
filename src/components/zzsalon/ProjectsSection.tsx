@@ -27,10 +27,11 @@ export const ProjectsSection = () => {
       path: "/barveni"
     },
     { 
-      id: "svatebni",
-      title: "Svatební účesy", 
-      desc: "Pro váš velký den",
-      img: "https://images.unsplash.com/photo-1523263685509-57c1d050d19b?auto=format&fit=crop&q=80"
+      id: "kosmetika",
+      title: "Kosmetika", 
+      desc: "Kompletní péče o pleť",
+      img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80",
+      path: "/kosmetika"
     },
     { 
       id: "prodluzovani",
@@ -40,10 +41,11 @@ export const ProjectsSection = () => {
       path: "/prodluzovani"
     },
     { 
-      id: "spolecenske",
-      title: "Společenské účesy", 
-      desc: "Pro speciální příležitosti",
-      img: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&q=80"
+      id: "manikura",
+      title: "Manikúra", 
+      desc: "Péče o ruce a nehty",
+      img: "https://images.unsplash.com/photo-1610992015734-11a65b2c7844?auto=format&fit=crop&q=80",
+      path: "/kosmetika"
     }
   ];
 
