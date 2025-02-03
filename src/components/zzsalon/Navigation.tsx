@@ -37,7 +37,7 @@ export const Navigation = ({ showTitle, onSectionClick }: NavigationProps) => {
             <Menu className="w-6 h-6" />
           </button>
           <h2 className={`text-xl font-light tracking-wide transition-opacity duration-300 ${showTitle ? 'opacity-100' : 'opacity-0'}`}>
-            Kadeřnictví PETRŮ & ROSSI
+            ZZ Salon
           </h2>
           <div className="w-6" />
         </div>
