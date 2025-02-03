@@ -6,40 +6,40 @@ import { AspectRatio } from "../ui/aspect-ratio";
 export const ProjectsSection = () => {
   const projects = [
     { 
-      id: "haircuts",
+      id: "damsky-strih",
       title: "Dámský střih", 
       desc: "Moderní styling",
       img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&q=80"
     },
     { 
-      id: "menscuts",
+      id: "pansky-strih",
       title: "Pánský střih", 
       desc: "Precizní úprava",
       img: "https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&q=80"
     },
     { 
-      id: "coloring",
+      id: "barveni",
       title: "Barvení", 
       desc: "Kreativní techniky",
       img: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&q=80"
     },
     { 
-      id: "wedding",
+      id: "svatebni",
       title: "Svatební účesy", 
       desc: "Pro váš velký den",
       img: "https://images.unsplash.com/photo-1523263685509-57c1d050d19b?auto=format&fit=crop&q=80"
     },
     { 
-      id: "cosmetics",
-      title: "Kosmetika", 
-      desc: "Profesionální péče",
-      img: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80"
+      id: "prodluzovani",
+      title: "Prodlužování vlasů", 
+      desc: "Profesionální prodloužení",
+      img: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80"
     },
     { 
-      id: "nails",
-      title: "Modeláž nehtů", 
-      desc: "Profesionální péče",
-      img: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80"
+      id: "spolecenske",
+      title: "Společenské účesy", 
+      desc: "Pro speciální příležitosti",
+      img: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&q=80"
     }
   ];
 
