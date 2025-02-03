@@ -52,7 +52,18 @@ export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">Naše práce</h2>
+        <h2 className="text-3xl md:text-4xl font-light mb-12 text-center">
+          Kosmetika a manikúra
+        </h2>
+        <div className="mb-12">
+          <AspectRatio ratio={21/9}>
+            <img
+              src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80"
+              alt="Kosmetika a manikúra"
+              className="object-cover w-full h-full rounded-xl"
+            />
+          </AspectRatio>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((item, index) => (
             <Link
