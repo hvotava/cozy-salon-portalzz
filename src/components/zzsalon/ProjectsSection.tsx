@@ -28,9 +28,9 @@ export const ProjectsSection = () => {
     },
     { 
       id: "kosmetika",
-      title: "Kosmetika a manikůra", 
-      desc: "Kompletní péče o pleť a nehty",
-      img: "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&q=80",
+      title: "Kosmetika", 
+      desc: "Kompletní péče o pleť",
+      img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80",
       path: "/kosmetika"
     },
     { 
@@ -42,10 +42,10 @@ export const ProjectsSection = () => {
     },
     { 
       id: "manikura",
-      title: "Manikúra", 
-      desc: "Péče o ruce a nehty",
-      img: "https://images.unsplash.com/photo-1610992015734-11a65b2c7844?auto=format&fit=crop&q=80",
-      path: "/kosmetika"
+      title: "Manikúra a nehty", 
+      desc: "Profesionální péče o nehty",
+      img: "https://images.unsplash.com/photo-1604654894611-6973b376cbde?auto=format&fit=crop&q=80",
+      path: "/manikura"
     }
   ];
 

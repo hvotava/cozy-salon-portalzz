@@ -11,6 +11,7 @@ import WomensHaircuts from "./pages/WomensHaircuts";
 import HairColoring from "./pages/HairColoring";
 import HairExtensions from "./pages/HairExtensions";
 import Cosmetics from "./pages/Cosmetics";
+import Manicure from "./pages/Manicure";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
           <Route path="/barveni" element={<HairColoring />} />
           <Route path="/prodluzovani" element={<HairExtensions />} />
           <Route path="/kosmetika" element={<Cosmetics />} />
+          <Route path="/manikura" element={<Manicure />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
